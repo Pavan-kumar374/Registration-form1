@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration in Form
+        </title>
+    </head>
+    <body>
+        
+        <center>
+            <h1>REGISTRATION FORM</h1>
+        </center>
+        <fieldset>
+            <legend>Personal Details</legend><br>
+            <label>Enter First Name:</label>
+            <input placeholder="Enter first Name" type="text"><br>
+            <label>Enter Middle Name:</label>
+            <input placeholder="Enter middle Name" type="text"><br>
+            <label>Enter LastName:</label>
+            <input placeholder="Enter last Name" type="text"><br>
+            <label>Date:</label>
+            <input type="date"><br>
+            <label>Email Address:</label>
+            <input placeholder="Enter Email Address" type="text"> <br>
+            <label>Password:</label>
+            <input placeholder="Enter your Password" type="password"><br>
+            <label>select gender:</label>
+            <input type="radio">male
+            <input type="radio">female<br>
+            <label>Phone Number:</label>
+            <input placeholder="Enter your Number" type="Number"><br>
+            <label>Select your State</label>
+            <select>
+                <option>Selected</option>
+                <option>Andhra Pradesh</option>
+                <option>Bihar</option>
+                <option>Karnataka</option>
+                <option>Kerela</option>
+                <option>Tamilnadu</option>
+            </select>
+            <center><button>submit</button></center>
+
+    </fieldset>
+    <input type="checkbox"><span>If you are complete registarion then go to login </span><br>
+    <a href="assignment.html">login</a>
+    </body>
+</html>
